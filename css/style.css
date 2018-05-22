@@ -1,0 +1,47 @@
+.wrapper{
+    width: 95%;
+}
+.sidebar{
+
+}
+.sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+.sidebar ul li{
+    display: block;
+}
+.sidebar ul li a{
+    display: block;
+    color: #666;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.sidebar ul li a:hover:not(.active){
+    background-color: #ddd;
+}
+.sidebar ul li a.active {
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+}
+.content{
+    border-left: 1px solid #dddddd;
+}
+.profile_table{
+    width: 80%;
+    margin: 0 auto;
+}
+.profile_table th, .profile_table tr{
+    text-align: center;
+}
+.inline_form{
+    display: inline;
+}
+textarea{
+    resize: none;
+}
